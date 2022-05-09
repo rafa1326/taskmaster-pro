@@ -216,7 +216,7 @@ $("#task-form-modal .btn-primary").click(function() {
     $("#task-form-modal").modal("hide");
 
     // save in tasks array
-    tasks.toDo.push({
+    tasks.toDo.push( {
       text: taskText,
       date: taskDate
     });
